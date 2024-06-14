@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+body {
+    font-family: "Karla", sans-serif;
+    background-color: #E6EFF5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    padding: 20px;
+    text-align: left;
+    background-color: #f7f9fb;
+}
+
+.header h1 {
+    margin: 0;
+    color: #2d9cdb;
+}
+
+.moneyback {
+    color: #C0DF33;
+    font-weight: bold;
+}
+
+.content1 {
+    color: #666666;
+}
+
+.content2 {
+    display: flex;
+    background-color: #32bea6;
+    color: white;
+}
+
+.subscription, .why-us {
+    padding: 20px;
+    flex: 1;
+}
+
+.subscription {
+    padding-top: 70px ;
+    background-color: #2AB3B1;
+    text-align: left;
+}
+
+.subscription h2 {
+    margin-top: 0;
+}
+
+.price {
+    font-size: 24px;
+    
+    margin: 10px 0;
+}
+
+.price span {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.access {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #C0DF33;
+    color: white;
+    border: none;
+    padding: 15px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.why-us {
+    background-color: #4BBFBD;
+    color: white;
+}
+
+.why-us h2 {
+    margin-top: 0;
+}
+
+.why-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-us li {
+    margin: 10px 0;
+}
